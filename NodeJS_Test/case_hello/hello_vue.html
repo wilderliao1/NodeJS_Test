@@ -18,6 +18,13 @@
 	<div id="el_seen">
 		<p v-if="seen">现在你看到我了</p>
 	</div>
+	<div id="el_todo">
+		<ol>
+			<li v-for="todo in todos">
+				{{todo.text}}
+			</li>
+		</ol>
+	</div>
 </body>
 
 <script src="https://unpkg.com/vue"></script>
