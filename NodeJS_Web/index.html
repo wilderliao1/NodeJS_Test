@@ -1,15 +1,67 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<meta charset="utf-8">
-	<title>login</title>
-</head>
+		<title>wilder的博客</title>
+		<script type="text/javascript" src="blog.js"></script>
+		<link rel="stylesheet" type="text/css" href="blog.css">
+		<link rel="stylesheet" type="text/css" href="global.css">
+	</head>
+	<body>
+		<!-- 顶部的信息栏 -->
+		<div id="top_div">
+			<div id="self_info_div">
+				<img id="self_image" src="./img/wilder.png" alt="头像" width="65" height="65">	
+				<label id="self_name">wilder</label>
+			</div>
+			<div class="utils_div">
+				<ul>
+					<li>
+						<a href="./blog/blog.html">
+							<img src="./img/icon_blog.png" width="30" height="30"><span>博客</span>
+						</a> 
+					</li>
+					<li>
+						<a href="./blog/blog.html">
+							<img src="./img/icon_src_code.png" width="30" height="30"><span>开源</span>
+						</a> 
+					</li>
+					<li>
+						<a href="./blog/blog.html">
+							<img src="./img/icon_tool.png" width="30" height="30"><span>工具</span>
+						</a> 
+					</li>
+					<li>
+						<a href="./blog/blog.html">
+							<img src="./img/icon_msg.png" width="30" height="30"><span>留言</span>
+						</a> 
+					</li>
+					<li>
+						<a href="./blog/blog.html">
+							<img src="./img/icon_about.png" width="30" height="30"><span>关于</span>
+						</a> 
+					</li>
+				</ul>
+			</div>
+		</div>
 
-<body>
-	<form name="input" action="html_form_action.php" method="get">
-	Username: <input type="text" name="user">
-	<input type="submit" value="Submit">
-</form>
-</body>
-
+		<!-- 底部内容栏 -->
+		<div class="content_div_class">
+			<div id="blog_div">
+				<!-- <label>blog_div</label> -->
+				 <Iframe src="./blog/blog.html" width="250" height="200" scrolling="no" frameborder="0"></iframe>
+			</div>
+			<div id="srccode_div">
+				<label>srccode_div</label>
+			</div>
+			<div id="tools_div">
+				<label>tools_div</label>
+			</div>
+			<div id="message_div">
+				<label>message_div</label>
+			</div>
+			<div id="about_div">
+				<label>about_div</label>
+			</div>
+		</div>
+	</body>
 </html>

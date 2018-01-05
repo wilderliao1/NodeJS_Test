@@ -1,13 +1,18 @@
-* {box-sizing: border-box}
-body {font-family: "Lato", sans-serif;}
+/*左边导航栏*/
+div.tabtitle {
+    border: 1px solid #eee;
+    width: 20%;
+    font-size: 20px;
+    padding: 22px 16px;
+    /*background-color: :#000000; 为什么这里设置背景颜色不生效*/ 
+}
 
 /* Style the tab */
 div.tab {
-    float: left;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-    width: 30%;
-    height: 300px;
+    border: 1px solid #eee;
+    width: 20%;
+    height: 2000px;
+    /*background-color: :#ffffff;为什么这里设置背景颜色不生效*/
 }
 
 /* Style the buttons inside the tab */
@@ -17,12 +22,12 @@ div.tab button {
     color: black;
     padding: 22px 16px;
     width: 100%;
-    border: none;
+    border: 1px ;
     outline: none;
     text-align: left;
     cursor: pointer;
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 /* Change background color of buttons on hover */
@@ -39,8 +44,10 @@ div.tab button.active {
 .tabcontent {
     float: left;
     padding: 0px 12px;
-    border: 1px solid #ccc;
-    width: 70%;
+    /*border: 1px solid #ccc;*/
+    width: 80%;
     border-left: none;
     height: 300px;
 }
+
+

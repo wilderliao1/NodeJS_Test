@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    background-color:#f3f3f3;
+    /*margin-left: 10%;*/
+    /*margin-top: 10%;*/
+}
+
+/*顶部信息栏*/
+#top_div {
+    width: 100%;
+    background-color: #ffffff;
+    display: inline-block;
+}
+
+#self_info_div {
+    float: left;
+    width: 20%;
+    background-color: #00aa00;
+}
+
+#self_image {
+    /*float: left;*/
+    display: inline-block;
+    border-radius: 20px;
+    background-color: #009900;
+}
+
+#self_name {
+    display: inline-block;
+    text-align: center;
+    background-color: #008800;
+}
+
+/*顶部导航栏*/
+.utils_div {
+    float: right;
+}
+
+.utils_div ul{
+	float: right;
+	display:inline; 
+	list-style:none;
+	width:440px;
+}
+
+.utils_div li{
+	float: left; 
+	width: 70px;
+}
+
+/*底部内容栏 默认隐藏*/
+.content_div_class div {
+	/*display: none;*/
+}
